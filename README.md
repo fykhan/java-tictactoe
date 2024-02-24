@@ -9,17 +9,20 @@ To run the Tic Tac Toe server, follow these steps:
 
 Compile the Java files:
 
-Copy
+Copy: 
 javac RunServer.java
+
 Start the server:
 
 Copy
 java RunServer
+
 The server will start listening for client connections on port 40003.
 
 Clients can now connect to the server and play the game.
 
 How to Run the Client
+
 To run the Tic Tac Toe client, follow these steps:
 
 Compile the Java files:
@@ -45,10 +48,17 @@ File Structure
 The project consists of the following files:
 
 RunServer.java: This file contains the main class to start the Tic Tac Toe server. It listens for client connections and manages the server's lifecycle.
+
 Server.java: This file contains the server-side logic of the game. It handles client communication, manages the game board, and coordinates the game flow.
+
 SharedBoard.java: This file represents the game board shared by the clients. It implements the logic behind the game, tracks the current player's turn, and updates the board with player moves.
+
 Client.java: This file contains the main class to start the Tic Tac Toe client. It creates the game GUI and connects to the server.
+
 View.java: This file represents the graphical user interface (GUI) of the game. It displays the game board and handles user input.
+
 Controller.java: This file manages the game flow and communication with the server. It handles user actions, updates the GUI, and sends instructions to the server.
+
 Dependencies
+
 The Tic Tac Toe server and client are implemented using Java's standard libraries. No external dependencies are required.
